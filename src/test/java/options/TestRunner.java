@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java/features",
 		glue = "stepDefinitions",
-		plugin = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber-report.json"}
-		//tags = {"@tag23"}
+		plugin = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber-report.json"},
+		tags = {"@tag"}
 		//dryRun = false,
 		//strict = false
 		)
